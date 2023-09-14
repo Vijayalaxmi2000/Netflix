@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+}
+.netflix_home
+{
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("backgriud.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 1500px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+#btn1{
+    border: 1px solid white;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+#btn2{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 3px;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    height:50px ;
+    width: 380px;
+}
+.form button{
+    padding: 0px 25px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.card-0 , 
+.card-1,
+.card-2,
+.card-3{
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+
+}
+
+.card-0{
+    color: white;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns:40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    background-color:black;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+}
+
+.desc-0{
+    padding-left: 100px;
+}
+
+.card-1{
+    color: white;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+}
+
+.desc-1{
+    padding-left: 80px;
+}
+
+.style-cards h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+
+
+.card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    color:white;
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+}
+
+.desc-2{
+    padding-left: 100px;
+}
+
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    color: white;
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+}
+
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.card-3 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+
+
+.faq{
+    text-align: center;
+     color: white; 
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    height: 110vh;
+    
+    
+}
+
+.faq h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    
+    height: 110vh;
+
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+    color: white;
+    background-color: black;
+    background-size: 1500px;
+    width: 1500px;
+    
+    
+}
+
+.questions li{
+    padding: 20px 30px;
+    margin: 3px;
+    font-size: 1.2rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+    
+}
+
+.faq p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.input{
+    /* display: inline-grid; */
+    display: flex;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+    justify-content: center;
+}
+
+.input input{
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.input button{
+    /* border: none;
+    background-color: red;
+    color: white;
+    /* padding: 10px 18px; 
+
+    border-radius: 3px;*/
+     padding: 15px 15px;
+     font-size: 20px;
+     background-color: red;
+     color: white;
+     border: none;
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+    
+    
+}
+
+.footer{
+    max-width: 100%;
+    margin: 1rem auto;
+    overflow: auto;
+    background-size: 1500px;
+    width: 1500px;
+    height: 100vh;
+}
+
+.footer ,
+.footer a{
+    color: #999999;
+    font-size: 1.9rem;
+    background-color: black;
+    
+}
+
+.footer p{
+    margin-bottom: 2.5rem;
+    background-color: black;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2.5rem;
+    background-color: black;
+}
+
+.footer li{
+    line-height: 1.8;
+    background-color:black;
+}
